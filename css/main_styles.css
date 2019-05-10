@@ -52,24 +52,24 @@
 
 
 @font-face {font-family: 'xiomararegular';
-    src: url('xiomara-script-webfont.woff2') format('woff2'),
-         url('xiomara-script-webfont.woff') format('woff');
+    src: url('https://bibar7.github.io/Barber-Bolling/css/fonts/xiomara-script-webfont.woff2') format('woff2'),
+         url('https://bibar7.github.io/Barber-Bolling/css/fonts/xiomara-script-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
 @font-face {font-family: 'wakellclnregular';
-    src: url('wakellcln-regular-webfont.woff2') format('woff2'),
-         url('wakellcln-regular-webfont.woff') format('woff');
+    src: url('https://bibar7.github.io/Barber-Bolling/css/fonts/wakellcln-regular-webfont.woff2') format('woff2'),
+         url('https://bibar7.github.io/Barber-Bolling/css/fonts/wakellcln-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
 @font-face {font-family: 'wakelldoodlesclnregular';
-    src: url('wakelldoodlescln-regular-webfont.woff2') format('woff2'),
-         url('wakelldoodlescln-regular-webfont.woff') format('woff');
+    src: url('https://bibar7.github.io/Barber-Bolling/css/fonts/wakelldoodlescln-regular-webfont.woff2') format('woff2'),
+         url('https://bibar7.github.io/Barber-Bolling/css/fonts/wakelldoodlescln-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
