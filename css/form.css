@@ -26,52 +26,22 @@
 }
 
 #form-div {
-	background-color:rgba(72,72,72,0.4);
+	/* background-color:rgba(72,72,72,0.4);
 	padding-left:35px;
 	padding-right:35px;
 	padding-top:35px;
 	padding-bottom:50px;
-	width: 450px;
+	width: 400px;
 	float: left;
 	left: 50%;
 	position: absolute;
   margin-top:30px;
 	margin-left: -260px;
-  border-radius: 7px;
+  border-radius: 7px; */
   
 }
 
-.appnitro .feedback-input {
-	color:#3c3c3c;
-  font-family: "Josefin Sans", 'Trebuchet MS', sans-serif;
-  font-weight:500;
-	font-size: 18px;
-	border-radius: 0;
-	line-height: 22px;
-	background-color: #fbfbfb;
-	padding: 13px 13px 13px 54px;
-	margin-bottom: 10px;
-	width:100%;
-	box-sizing: border-box;
-	border: 3px solid rgba(0,0,0,0);
-}
-/*Inputs styles*/
-.appnitro .feedback-input:focus{
-	background: #fff;
-	border: 3px solid #00bccd;
-	color: #00bccd;
-	outline: none;
-  padding: 13px 13px 13px 54px;
-}
 
-#form_62422 h2{
-	font-family: 'Walter Turncoat', 'Goudy Old Style', 'Palatino', serif;
-	color: #f0d6d7;
-	text-shadow: 2px 2px 2px black;
-}
-#form_62422 p{
-	color: white;
-}
 
 /* Icons ---------------------------------- */
 .appnitro  #name{
