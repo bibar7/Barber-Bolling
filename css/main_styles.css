@@ -154,7 +154,7 @@ h5{font-size: 18px;}
 
 h1{
 	font-family: 'Gorditas', 'Papyrus', fantasy;
-	line-height: 2;
+	line-height: 1.4;
 
 	}
 
@@ -919,7 +919,7 @@ letter-spacing: 0.2em;
 {
 	display: block;
 	font-family: 'Gorditas', 'Papyrus', fantasy;
-			line-height: 1.8;	
+			line-height: 1.4;	
 			font-size: 80px;
 	color: #ffffff;
 	/* text-shadow: 3px 7px 2px rgba(88, 89, 145, 0.65); */
@@ -1266,6 +1266,7 @@ font-size: 1em;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+	height: 2600px;
 	/* padding-bottom: 106px; */
 }
 /* .form_row
@@ -1279,13 +1280,22 @@ font-size: 1em;
 	padding-right:35px;
 	padding-top:35px;
 	padding-bottom:50px;
-	width: 400px;
 	float: left;
 	left: 50%;
 	position: absolute;
   margin-top:30px;
-	margin-left: -260px;
   border-radius: 7px;
+}
+.form_container_1 {
+width: 400px;
+margin-left: -260px;
+
+}
+
+.form_container_2{
+	width: 600px;
+	margin-left: -360px;
+
 }
 .schedule_title_bar
 {
@@ -1300,7 +1310,7 @@ font-size: 1em;
 	font-size: 16px;
 	font-weight: 200;
 	margin-left: 8px;
-	font-family: 'Gorditas', 'Papyrus', fantasy;
+	font-family: 'Josefin Slab', 'Rockwell', 'Palatino', serif;
 	text-shadow: 3px 5px 2px #474747;
 }
 .form_title_bar_1
@@ -1312,7 +1322,8 @@ font-size: 1em;
 	background: #fb688d;
 }
 
-.appnitro .feedback-input {
+.appnitro_1 .feedback-input,
+.appnitro_2 .feedback-input {
 	color:#3c3c3c;
   font-family: "Josefin Sans", 'Trebuchet MS', sans-serif;
   font-weight:200;
@@ -1327,7 +1338,7 @@ font-size: 1em;
 	border: 3px solid rgba(0,0,0,0);
 }
 /*Inputs styles*/
-.appnitro .feedback-input:focus{
+.appnitro_1 .feedback-input:focus {
 	background: #fff;
 	border: 3px solid #00bccd;
 	color: #00bccd;
@@ -1335,8 +1346,16 @@ font-size: 1em;
   padding: 13px 13px 13px 54px;
 }
 
+.appnitro_2 .feedback-input:focus{
+	background: #fff;
+	border: 3px solid #fb688d;
+	color: #fb688d;
+	outline: none;
+  padding: 13px 13px 13px 54px;
+}
 
-#form_62422 p{
+#form_62422 p,
+#form_62471 p{
 	color: white;
 }
 

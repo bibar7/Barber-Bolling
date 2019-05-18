@@ -13,7 +13,9 @@
 	text-align:center;
 }
 
-#form-main{
+
+#form-news-main,
+#form-registration-main{
 	width:100%;
 	/* float:left; */
 	padding-top:0px;
@@ -44,14 +46,14 @@
 
 
 /* Icons ---------------------------------- */
-.appnitro  #name{
+.appnitro  .name{
 	background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-address-book.svg);
 	background-size: 30px 30px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
-.appnitro  #name:focus{
+.appnitro  .name:focus{
 	background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-address-book.svg);
 	background-size: 30px 30px;
 	background-position: 8px 5px;
@@ -59,21 +61,21 @@
 	background-repeat: no-repeat;
 }
 
-.appnitro  #email{
-	background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-mail.svg);
+.appnitro  .email{
+	background-image: url(https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/collection/build/ionicons/svg/ios-mail-unread.svg);
 	background-size: 30px 30px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
-.appnitro  #email:focus{
+.appnitro  .email:focus{
 	background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-mail.svg);
 	background-size: 30px 30px;
   background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
-.appnitro  #comment{
+.appnitro  .comment{
 	background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-pencil.svg);
 	background-size: 30px 30px;
 	background-position: 11px 8px;
@@ -111,9 +113,33 @@
 	background-color: rgba(0,0,0,0);
 	color: #00bccd;
 }
-	
-.appnitro  .submit:hover {
+
+
+.button-pink{
+	float:left;
+	width: 100%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: #fb688d;
+	color:white;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+.button-pink:hover{
+	background-color: rgba(0,0,0,0);
+	color: #fb688d;
+}	
+.appnitro_1  .submit:hover {
 	color: #00bccd;
+}
+
+.appnitro_2  .submit:hover {
+	color: #fb688d;
 }
 	
 .ease {
