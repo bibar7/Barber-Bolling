@@ -20,9 +20,6 @@
 		
 	
 
-	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-
-
 	<!-- Icons -->
 	<link rel="stylesheet" href="css/fonts/ionicons/ionicons.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
@@ -42,7 +39,7 @@
 	src="https://code.jquery.com/jquery-3.4.1.js"
 	integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
 	crossorigin="anonymous"></script>
-	
+
   <script type="text/javascript" src="js/TimeCircles.js"></script>
 <link href="css/TimeCircles.css" rel="stylesheet">
 
@@ -283,7 +280,10 @@
 			<div class="row">
 				<div class="col">
 					<div class="timer_container" id="clockdiv">
-		<h4 style="font-family: 'wakellclnregular', 'Papyrus', fantasy; color: #ffffff; text-align: center;">Time Until <span style="color: #e56fa6">2019</span> Barber-Bolling Reunion in Beaufort:</h4>
+		<h4 class="timer_header"> 
+			<span class="timer_quote">
+			"The memories we make with our family [are] everything." <span class="quote_attribution"> &mdash; Candace Cameron Bure</span></span> <br>
+			<span style="font-size: 1.2em; font-weight: 800;">Time Until <span style="color: #e56fa6">2019</span> Barber-Bolling Reunion in Beaufort:</span></h4>
 		<div id="DateCountdown" data-date="2019-07-12 16:00:00" style="width: 100%;"></div>
 <script>
 $("#DateCountdown").TimeCircles({
@@ -328,20 +328,22 @@ $("#DateCountdown").TimeCircles({
 		<div class="container">
 			<div class="row">
 				<div class="col text-center">
-									<div class="section_title_container text-center">
-										<div class="section_subtitle">This Year's Location</div>
-										<div class="section_title"><h1>Beaufort, SC</h1></div>
+							<div class="section_title_container text-center">
+										<div class="section_subtitle_b">This Year's Location</div>
+										<div class="section_title"><h2>Beaufort, SC</h2></div>
 									</div>
-								<h4><blockquote><i>The memories we make with our family [are] everything.</i></blockquote></h4> 
-							<h5> &mdash; Candace Cameron Bure</h5>
-
-							</h3></div>
 					</div>
-					<div class="intro_text text-center">
+					</div>
+					<div class="row">
+					<div class="col intro_text text-center">
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
 					</div>
-					<div class="button button_2 intro_button"><a href="#"><span>get tickets<img src="images/arrow.png" alt=""></span></a></div>
-				</div>
+			</div>
+			<div class="row">
+					<div class="col text-center">
+							<div class="button button_2 intro_button"><a href="#"><span>Get Tickets<img src="images/arrow.png" alt=""></span></a></div>
+						</div>
+			</div>
 			</div>
 		</div>
 	</div>
@@ -353,8 +355,8 @@ $("#DateCountdown").TimeCircles({
 			<div class="row">
 				<div class="col">
 					<div class="section_title_container text-center">
-						<div class="section_subtitle">see what's all about</div>
-						<div class="section_title"><h1>The Topics</h1></div>
+						<div class="section_subtitle_b">see what's all about</div>
+						<div class="section_title">The Topics</div>
 					</div>
 					<div class="tabs_container">
 						<div class="tabs d-flex flex-row align-items-center justify-content-start flex-wrap">
@@ -464,13 +466,13 @@ $("#DateCountdown").TimeCircles({
 
 	<div class="family_forms">
 		<div class="container">
-			<!-- <div class="row">
+			<div class="row">
 				<div class="col">
 					<div class="section_title_container text-center">
-						<div class="section_title"><h1>Forms</h1></div>
+						<div class="section_title family_form_header">Forms</div>
 					</div>
 				</div>
-			</div> -->
+			</div>
 			<div class="row form_row">
 
 				<!-- Schedule Column -->
@@ -478,7 +480,7 @@ $("#DateCountdown").TimeCircles({
 					<div class="form_container">
 									<form id="form_62422" class="appnitro half"  method="post" action="https://formspree.io/xgndljvm">
 										<div class="form_title_bar form_title_bar_1 text-center">
-										<h2>Newsletter Submission Form</h2></div>
+										<h3>Newsletter Submission Form</h3></div>
 								<div class="form_description"><p>Create and send your newsletter blurb here! Please create one submission about a paragraph long per individual being discussed. You can submit more than one entry. Newsletter entries are <b>DUE BY SUNDAY, JUNE 23rd.</b></p>
 								</div>
 									  <p class="name">
@@ -559,7 +561,7 @@ $("#DateCountdown").TimeCircles({
 				<div class="col-lg-6 schedule_col">
 					<div class="form_container">
 							<form id="#" class="appnitro half"  method="post" action="#">
-						<div class="form_title_bar form_title_bar_2 text-center"><h2>Registration Form</h2></div>
+						<div class="form_title_bar form_title_bar_2 text-center"><h3>Registration Form</h3></div>
 						<!-- <div class="schedule_list"> -->
 							<!-- <ul>
 								<li class="d-flex flex-row align-items-center justify-content-start">
@@ -627,8 +629,8 @@ $("#DateCountdown").TimeCircles({
 			<div class="row">
 				<div class="col">
 					<div class="section_title_container text-center">
-						<div class="section_subtitle">see what's all about</div>
-						<div class="section_title"><h1>Speakers</h1></div>
+						<div class="section_subtitle_b">see what's all about</div>
+						<div class="section_title">Speakers</div>
 					</div>
 				</div>
 			</div>
