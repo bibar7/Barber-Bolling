@@ -66,24 +66,24 @@
 				<ul class="d-flex flex-row align-items-center justify-content-start">
 					<li class="active"><a href="index.html">Home</a></li>
 					<li class="has_children">
-						<a href="about.html">Register</a>
+						<a href="#">Register</a>
 						<ul>
-							<li><a href="#">Registration Form</a></li>
-							<li><a href="#">Book Hotel Room</a></li>
+							<li><a href="#family-forms">Registration Form</a></li>
+							<li><a href="https://secure3.hilton.com/en_US/ht/reservation/book.htm?inputModule=HOTEL&ctyhocn=BFTPIHT&spec_plan=CHTBFR&arrival=20190709&departure=20190717&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT">Book Hotel Room</a></li>
 						</ul>
 					</li>
 					<li class="has_children">
-						<a href="schedule.html">News</a>
+						<a href="blog.html">News</a>
 						<ul>
-							<li><a href="#">Submit Newsletter Entry</a></li>
+							<li><a href="#family-forms">Submit Newsletter Entry</a></li>
 							<li><a href="#">Request Newsletter Copy</a></li>
-							<li><a href="#">News</a></li>						</ul>
+							<li><a href="blog.html">News</a></li>						</ul>
 					</li>
 					<li class="has_children">
-						<a href="blog.html">2019 City</a>
+						<a href="#reunion-location-intro">2019 City</a>
 							<ul>
-								<li><a href="#">Reunion Itinerary</a></li>
-								<li><a href="#">History</a></li>
+								<li><a href="#reunion-info">Reunion Itinerary</a></li>
+								<li><a href="#">Location History</a></li>
 								<li><a href="#">Tour</a></li>
 								<li><a href="#">Other Attractions</a></li>
 							</ul>
@@ -111,7 +111,7 @@
 					</ul>
 				</div>
 				<div class="header_link">
-					<a href="mailto:barberbollingreunion@gmail.com?cc=rfrazier1999@kellogg.northwestern.edu;subject=Important%3A%20Family%20Reunion%20Question%20&amp;body=This%20email%20was%20generated%20from%20the%20reunion%20website%2E">
+					<a href="#comments-and-questions">
 						<span style="font-family: 'monopoly_lightregular', 'Optima', 'Segoe UI';">Questions?<img src="images/arrow.png" alt=""></span>
 					</a>
 				</div>
@@ -324,7 +324,7 @@ $("#DateCountdown").TimeCircles({
 </div>
 	<!-- Intro -->
 
-	<div class="intro">
+	<div class="intro" id="reunion-location-intro">
 		<div class="container">
 			<div class="row">
 				<div class="col text-center">
@@ -336,7 +336,9 @@ $("#DateCountdown").TimeCircles({
 					</div>
 					<div class="row">
 					<div class="col intro_text text-center">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+						<p>
+						Beaufort is a city on Port Royal Island, one of South Carolina’s coastal Sea Islands. It’s known for its antebellum mansions, especially in the downtown historic district. 
+						</p>
 					</div>
 			</div>
 			<div class="row">
@@ -350,29 +352,29 @@ $("#DateCountdown").TimeCircles({
 
 	<!-- Tabs Section -->
 
-	<div class="tabs_section">
+	<div class="tabs_section" id="reunion-info">
 		<div class="container">
 			<div class="row">
 				<div class="col">
 					<div class="section_title_container text-center">
-						<div class="section_subtitle_b">see what's all about</div>
+						<div class="section_subtitle_b">Find Out About</div>
 						<div class="section_title">This Year's Reunion</div>
 					</div>
 					<div class="tabs_container">
 						<div class="tabs d-flex flex-row align-items-center justify-content-start flex-wrap">
-							<div class="tab active">01. Marketing Intro</div>
-							<div class="tab">02. Marketing Strategy</div>
-							<div class="tab">03. Cyber Marketing</div>
-							<div class="tab">04. Online Stategy</div>
-							<div class="tab">05. Stories</div>
-							<div class="tab">06. Special Guest</div>
+							<div class="tab active">Location History</div>
+							<div class="tab">Attractions</div>
+							<div class="tab">Our Hotel</div>
+							<div class="tab">Reunion Itinerary</div>
+							<div class="tab">Family Dinner</div>
+							<div class="tab">Comments</div>
 						</div>
 						<div class="tab_panels">
 							<div class="tab_panel active">
 								<div class="row">
 									<div class="col-lg-7">
 										<div class="tab_panel_content">
-											<div class="tab_title"><h3>Marketing 101 - Studies for begginers</h3></div>
+											<div class="tab_title" id="location-history"><h3>Beaufort, SC: History</h3></div>
 											<div class="tab_text">
 												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Etiam pretium, nibh vitae varius ultricies, tellus diam gravida elit, vel rhoncus eros eros sit amet ipsum. Cras cursus pellentesque tortor, vitae efficitur nisi laoreet in. Suspendisse libero erat, aliquet eu maximus ac, dignissim vitae ex. Nam vel euismod risus, tempor venenatis nunc.</p>
 											</div>
@@ -388,7 +390,7 @@ $("#DateCountdown").TimeCircles({
 								<div class="row">
 									<div class="col-lg-6">
 										<div class="tab_panel_content">
-											<div class="tab_title"><h3>02. Marketing Strategy</h3></div>
+											<div class="tab_title" id="location-attractions"><h3>Beaufort: Attractions and Tour</h3></div>
 											<div class="tab_text">
 												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Etiam pretium, nibh vitae varius ultricies, tellus diam gravida elit, vel rhoncus eros eros sit amet ipsum. Cras cursus pellentesque tortor, vitae efficitur nisi laoreet in. Suspendisse libero erat, aliquet eu maximus ac, dignissim vitae ex. Nam vel euismod risus, tempor venenatis nunc.</p>
 											</div>
@@ -404,11 +406,11 @@ $("#DateCountdown").TimeCircles({
 								<div class="row">
 									<div class="col-lg-7">
 										<div class="tab_panel_content">
-											<div class="tab_title"><h3>03. Cyber Marketing</h3></div>
+											<div class="tab_title" id="reunion-hotel"><h3>Our Hotel: Home2Suites by Hilton</h3></div>
 											<div class="tab_text">
 												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Etiam pretium, nibh vitae varius ultricies, tellus diam gravida elit, vel rhoncus eros eros sit amet ipsum. Cras cursus pellentesque tortor, vitae efficitur nisi laoreet in. Suspendisse libero erat, aliquet eu maximus ac, dignissim vitae ex. Nam vel euismod risus, tempor venenatis nunc.</p>
 											</div>
-											<div class="tab_link"><a href="#">Read More</a></div>
+											<div class="tab_link"><a href="https://secure3.hilton.com/en_US/ht/reservation/book.htm?inputModule=HOTEL&ctyhocn=BFTPIHT&spec_plan=CHTBFR&arrival=20190709&departure=20190717&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT">Book Now</a></div>
 										</div>
 									</div>
 									<div class="col-lg-5 tab_col">
@@ -420,7 +422,7 @@ $("#DateCountdown").TimeCircles({
 								<div class="row">
 									<div class="col">
 										<div class="tab_panel_content">
-											<div class="tab_title"><h3>04. Online Stategy</h3></div>
+											<div class="tab_title" id="reunion-itinerary"><h3>2019 Family Reunion Itinerary</h3></div>
 											<div class="tab_text">
 												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Etiam pretium, nibh vitae varius ultricies, tellus diam gravida elit, vel rhoncus eros eros sit amet ipsum. Cras cursus pellentesque tortor, vitae efficitur nisi laoreet in. Suspendisse libero erat, aliquet eu maximus ac, dignissim vitae ex. Nam vel euismod risus, tempor venenatis nunc.</p>
 											</div>
@@ -433,7 +435,7 @@ $("#DateCountdown").TimeCircles({
 								<div class="row">
 									<div class="col">
 										<div class="tab_panel_content">
-											<div class="tab_title"><h3>05. Stories</h3></div>
+											<div class="tab_title" id="saturday-restaurant"><h3>Saturday Night Family Dinner</h3></div>
 											<div class="tab_text">
 												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Etiam pretium, nibh vitae varius ultricies, tellus diam gravida elit, vel rhoncus eros eros sit amet ipsum. Cras cursus pellentesque tortor, vitae efficitur nisi laoreet in. Suspendisse libero erat, aliquet eu maximus ac, dignissim vitae ex. Nam vel euismod risus, tempor venenatis nunc.</p>
 											</div>
@@ -446,11 +448,10 @@ $("#DateCountdown").TimeCircles({
 								<div class="row">
 									<div class="col">
 										<div class="tab_panel_content">
-											<div class="tab_title"><h3>06. Special Guest</h3></div>
+											<div class="tab_title" id="comments-and-questions"><h3>Suggestions? Comments? Questions?</h3></div>
 											<div class="tab_text">
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Etiam pretium, nibh vitae varius ultricies, tellus diam gravida elit, vel rhoncus eros eros sit amet ipsum. Cras cursus pellentesque tortor, vitae efficitur nisi laoreet in. Suspendisse libero erat, aliquet eu maximus ac, dignissim vitae ex. Nam vel euismod risus, tempor venenatis nunc.</p>
-											</div>
-											<div class="tab_link"><a href="#">Read More</a></div>
+<p>Click the link below to send any questions, comments, concerns, or suggestions to the Committee!</p>											</div>
+											<div class="tab_link"><a href="mailto:barberbollingreunion@gmail.com?cc=rfrazier1999@kellogg.northwestern.edu;subject=Important%3A%20Family%20Reunion%20Question%20&amp;body=This%20email%20was%20generated%20from%20the%20reunion%20website%2E">Click Here</a></div>
 										</div>
 									</div>
 								</div>
@@ -464,7 +465,7 @@ $("#DateCountdown").TimeCircles({
 
 	<!-- Schedule -->
 
-	<div class="family_forms">
+	<div id="family_forms">
 		<div class="container">
 			<div class="row">
 				<div class="col">
@@ -500,7 +501,7 @@ $("#DateCountdown").TimeCircles({
 
 	<!-- Speakers -->
 
-	<div class="speakers">
+	<div class="speakers" id="family-directory">
 		<div class="container">
 			<div class="row">
 				<div class="col">
