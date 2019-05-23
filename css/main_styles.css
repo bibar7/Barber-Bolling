@@ -28,11 +28,10 @@
 
 /* latin */
 @font-face {
-  font-family: 'Gorditas';
+  font-family: 'Fredericka the Great';
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
-  src: local('Gorditas'), local('Gorditas-Regular'), url(https://fonts.gstatic.com/s/gorditas/v6/ll8_K2aTVD26DsPEtTDvB68ilAYa.woff2) format('woff2');
+  src: local('Fredericka the Great'), local('FrederickatheGreat'), url(https://fonts.gstatic.com/s/frederickathegreat/v7/9Bt33CxNwt7aOctW2xjbCstzwVKsIBVV--SjxbcHcQ2K.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -97,7 +96,6 @@ p a {
 	display: inline;
 	position: relative;
 	color: inherit;
-	border-bottom: solid 1px #f36fb1;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -153,7 +151,7 @@ h5{font-size: 18px;}
 
 
 h1{
-	font-family: 'Gorditas', 'Papyrus', fantasy;
+	font-family: 'Fredericka the Great', 'Papyrus', fantasy;
 	line-height: 1.4;
 
 	}
@@ -357,6 +355,8 @@ section
 {
 	background: #40c9ce;
 }
+
+
 .button_3
 {
 	background: #fb688d;
@@ -370,6 +370,8 @@ section
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
+
+
 .button::after
 {
 	display: block;
@@ -918,8 +920,8 @@ letter-spacing: 0.2em;
 .home_title h1 span
 {
 	display: block;
-	font-family: 'Gorditas', 'Papyrus', fantasy;
-			line-height: 1.4;	
+	font-family: 'Fredericka the Great', 'Papyrus', fantasy;
+			line-height: 1.5;	
 			font-size: 80px;
 	color: #ffffff;
 	/* text-shadow: 3px 7px 2px rgba(88, 89, 145, 0.65); */
@@ -1060,7 +1062,7 @@ height: 350px;
 
 .timer_section > h1{
   color: #ffffff;
-  font-family: 'Gorditas', 'Papyrus', fantasy;
+  font-family: 'Fredericka the Great', 'Papyrus', fantasy;
   font-weight: 400;
   font-size: 28px;
   text-shadow: 4px 3px 0px #000000;
@@ -1213,6 +1215,34 @@ height: 350px;
 {
 	margin-top: 24px;
 }
+#location-history h3{
+	color: #ffbf62;
+	text-shadow: 3px 5px 2px #474747;
+
+}
+
+#location-attractions h3{
+	color: #40c9ce;
+	text-shadow: 3px 5px 2px #474747;
+
+}
+
+#reunion-hotel h3{
+	color: #9daa10;
+	text-shadow: 3px 5px 2px #474747;
+
+}
+
+#saturday-restaurant h3{
+	color: #7b7ace;
+	text-shadow: 3px 5px 2px #474747;
+
+}
+#comments-and-questions h3{
+	color: #ff8c51;
+	text-shadow: 3px 5px 2px #474747;
+
+}
 .tab_text
 {
 	margin-top: 20px;
@@ -1236,6 +1266,100 @@ font-size: 1em;
 {
 	max-width: 100%;
 }
+
+
+
+/* .tab_schedule{
+  position: relative;
+  background: inherit;
+  border-radius: 2px;
+	overflow: hidden;
+	padding-bottom: 106px;
+
+}
+
+.tab_schedule:after{
+ content: '';
+ width: 300px;
+ height: 300px;
+ background: inherit; 
+ position: absolute;
+ box-shadow: inset 0 0 0 200px rgba(181, 184, 205,0.05);
+ filter: blur(10px);
+} */
+
+/* div.tab_schedule_container{
+	background: inherit;
+}
+
+div.tab_schedule_container:before{
+	content: ‘’;
+	position: absolute;
+	box-shadow: inset 0 0 0 200px rgba(181, 184, 205, 0.25);
+	filter: blur(10px);
+} */
+
+.tab_schedule{
+	position: relative;
+	padding-bottom: 106px;
+	background: rgb(181, 184, 205, 0.30);
+
+}
+
+
+
+ .tab_schedule_list
+{
+	padding-top: 45px;
+	padding-bottom: 76px;
+}
+
+.tab_schedule_list ul li
+{
+	padding-left: 24px;
+}
+.tab_schedule_list ul li:not(:last-of-type)
+{
+	margin-bottom: 43px;
+}
+
+.tab_schedule_content
+{
+	padding-left: 60px;
+}
+.tab_schedule_time
+{
+	font-family: 'Josefin Slab', 'Rockwell', 'Palatino', serif;
+	text-shadow: 3px 5px 2px #000000;
+font-size: 18px;
+	font-weight: 700;
+	color: #40c9ce;
+} 
+
+.tab_schedule_title {
+	font-size: 24px;
+	font-weight: 200;
+	margin-top: 2px;
+	color: #FFFFFF;
+text-shadow: 0 0 10px rgb(135, 136, 150);
+}
+
+.tab_schedule_title_bar
+{
+	height: 112px;
+	line-height: 112px;
+	font-size: 24px;
+font-style: bold;
+	color: #ffffff;
+	background-color: #fb688d;
+	padding-top: 30px;
+
+}
+.tab_schedule_title_bar h3{
+	color: white;
+text-shadow: 3px 5px 2px #474747;
+}
+
 .tab_link
 {
 	margin-top: 35px;
@@ -1251,6 +1375,131 @@ font-size: 1em;
 {
 	color: #fb688d;
 }
+
+#location-history-link a,
+#location-history-link-2 a {
+	color: #ffbf62; text-decoration: none; text-transform: uppercase;
+}
+
+#location-history-link a:active,
+#location-history-link-2 a:active {
+	color: #ffdfb1;
+
+}
+
+#location-history-link a:visited,
+#location-history-link-2 a:visited  {
+  color: #ff9f14;
+}
+
+#location-history-link a:hover,
+#location-history-link-2 a:hover{
+	color: #ffffff; 
+	background: #ffbf62; 
+}
+
+#location-attractions-link a {
+	color: #40c9ce;
+	text-decoration: none;
+  text-transform: uppercase;
+}
+
+#location-attractions-link a:active {
+	color: #7edbde;
+
+}
+
+#location-attractions-link a:visited {
+  color: #2ba4a8;
+}
+
+#location-attractions-link a:hover{
+	color: #ffffff; 
+	background: #40c9ce; 
+}
+
+#reunion-hotel-link a {
+	color: #9daa10;
+	text-decoration: none;
+  text-transform: uppercase;
+}
+
+#reunion-hotel-link a:active {
+	color: #e2ef54;
+
+}
+
+#reunion-hotel-link a:visited {
+  color: #7c860d;
+}
+
+#reunion-hotel-link a:hover{
+	color: #ffffff; 
+	background: #9daa10; 
+}
+
+#reunion-itinerary-link a {
+	color: #fb688d;
+	text-decoration: none;
+  text-transform: uppercase;
+}
+
+#reunion-itinerary-link a:active {
+	color: #fda1b8;
+
+}
+
+#reunion-itinerary-link a:visited {
+  color: #f13766;
+}
+
+#reunion-itinerary-link a:hover{
+	color: #ffffff; 
+	background: #fb688d; 
+}
+
+#saturday-restaurant-link a {
+	color: #7b7ace;
+	text-decoration: none;
+  text-transform: uppercase;
+}
+
+#saturday-restaurant-link a:active {
+	color: #a6a5de;
+
+}
+
+#saturday-restaurant-link a:visited {
+  color: #4e4dad;
+}
+
+#saturday-restaurant-link a:hover{
+	color: #ffffff; 
+	background: #7b7ace; 
+}
+
+#comments-and-questions-link a {
+		color: #ff8c51;
+		text-decoration: none;
+  text-transform: uppercase;
+	}
+	
+	#comments-and-questions-link a:active {
+		color: #ffb38c;
+
+	}
+	
+	#comments-and-questions-link a:visited {
+		color: #f6681f;
+	}
+
+	#comments-and-questions-link a:hover{
+		color: #ffffff; 
+		background: #ff8c51; 
+	}
+
+
+
 
 /*********************************
 9. Schedule
@@ -1361,52 +1610,7 @@ margin-left: -260px;
 	color: white;
 }
 
-/* .schedule_list
-{
-	padding-top: 45px;
-	padding-bottom: 76px;
-}
-.schedule_list::before
-{
-	display: block;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 113px;
-	height: 100%;
-	background: #f5f8fb;
-	content: '';
-}
-.schedule_image
-{
-	width: 65px;
-	height: 65px;
-	border-radius: 50%;
-	overflow: hidden;
-	-webkit-transform: translateY(4px);
-	-moz-transform: translateY(4px);
-	-ms-transform: translateY(4px);
-	-o-transform: translateY(4px);
-	transform: translateY(4px);
-}
-.schedule_list ul li
-{
-	padding-left: 24px;
-}
-.schedule_list ul li:not(:last-of-type)
-{
-	margin-bottom: 43px;
-}
-.schedule_content
-{
-	padding-left: 60px;
-}
-.schedule_time
-{
-	font-size: 14px;
-	font-weight: 700;
-	color: #40c9ce;
-} */
+
 .schedule_title
 {
 	font-size: 24px;
@@ -1414,22 +1618,7 @@ margin-left: -260px;
 	color: #000000;
 	margin-top: 2px;
 }
-.schedule_info
-{
-	font-size: 15px;
-	font-weight: 200;
-	color: #68727c;
-	margin-top: 6px;
-}
-.schedule_info a
-{
-	color: #40c9ce;
-	margin-left: 3px;
-}
-.schedule_info a:hover
-{
-	color: #fb688d;
-}
+
 
 /*********************************
 10. Speakers
