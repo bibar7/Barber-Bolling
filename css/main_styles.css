@@ -479,6 +479,11 @@ letter-spacing: 0.2em;
 
 }
 
+span i.fa-arrow-right {
+	color: #40c9ce;
+	size: 16px;
+}
+
 /*********************************
 3. Header
 *********************************/
