@@ -1365,6 +1365,14 @@ font-style: bold;
 text-shadow: 3px 5px 2px #474747;
 }
 
+.tab_schedule_title h5 {
+	font-weight: 200;
+	margin-top: 2px;
+	color: rgb(202, 199, 199);
+	text-shadow: 0 0 10px rgb(34, 61, 78);
+
+}
+
 .tab_link
 {
 	margin-top: 35px;
@@ -1481,6 +1489,36 @@ text-shadow: 3px 5px 2px #474747;
 #saturday-restaurant-link a:hover{
 	color: #ffffff; 
 	background: #7b7ace; 
+}
+
+.tab_menu_head
+{
+	font-family: 'Josefin Slab', 'Rockwell', 'Palatino', serif;
+	text-shadow: 3px 5px 2px #000000;
+font-size: 30px;
+	font-weight: 800;
+	color: #7b7ace;
+} 
+
+.tab_menu_option
+{
+	font-size: 24px;
+	font-family: 'xiomararegular', 'Brush Script MT', cursive;
+	font-weight: 200;
+	margin-top: 2px;
+	color: #FFFFFF;
+text-shadow: 0 0 10px rgb(135, 136, 150);
+}
+
+.tab_menu_notes 
+{
+	font-size: 20px;
+	font-family: 'Josefin Slab', 'Rockwell', 'Palatino', serif;
+	font-style: oblique;
+	font-weight: 200;
+	margin-top: 2px;
+	color: rgb(202, 199, 199);
+	text-shadow: 0 0 10px rgb(34, 61, 78);
 }
 
 #comments-and-questions-link a {
