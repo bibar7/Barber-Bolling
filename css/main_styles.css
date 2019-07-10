@@ -35,14 +35,98 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-/* latin-ext */
+
 @font-face {
-  font-family: 'Josefin Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Josefin Sans Regular'), local('JosefinSans-Regular'), url(https://fonts.gstatic.com/s/josefinsans/v13/Qw3aZQNVED7rKGKxtqIqX5EUA3x4Vn8siqM7.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    font-family: 'brandon_grotesqueblack_italic';
+    src: url('fonts/brandon_blk_it-webfont.woff2') format('woff2'),
+         url('fonts/brandon_blk_it-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'brandon_grotesqueblack';
+    src: url('fonts/brandon_blk-webfont.woff2') format('woff2'),
+         url('fonts/brandon_blk-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'brandon_grotesquelight_italic';
+    src: url('fonts/brandon_light_it-webfont.woff2') format('woff2'),
+         url('fonts/brandon_light_it-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'brandon_grotesquelight';
+    src: url('fonts/brandon_light-webfont.woff2') format('woff2'),
+         url('fonts/brandon_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'brandon_grotesqueMdIt';
+    src: url('fonts/brandon_med_it-webfont.woff2') format('woff2'),
+         url('fonts/brandon_med_it-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'brandon_grotesquemedium';
+    src: url('fonts/brandon_med-webfont.woff2') format('woff2'),
+         url('fonts/brandon_med-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'brandon_grotesqueRgIt';
+    src: url('fonts/brandon_reg_it-webfont.woff2') format('woff2'),
+         url('fonts/brandon_reg_it-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'brandon_grotesqueregular';
+    src: url('fonts/brandon_reg-webfont.woff2') format('woff2'),
+         url('fonts/brandon_reg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 /* latin */
@@ -57,16 +141,17 @@
 
 /*Cursive font, licensed. Alternative: 'Brush Script MT' */
 
-@font-face {font-family: 'xiomararegular';
-    src: url('https://bibar7.github.io/Barber-Bolling/css/fonts/xiomara-script-webfont.woff2') format('woff2'),
-         url('https://bibar7.github.io/Barber-Bolling/css/fonts/xiomara-script-webfont.woff') format('woff');
+@font-face {
+    font-family: 'vigrand_regularregular';
+    src: url('fonts/vigrand-regular-webfont.woff2') format('woff2'),
+         url('fonts/vigrand-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
 body{
-	font-family: 'Josefin Sans', 'Optima', 'Segoe UI', sans-serif;
+	font-family: 'brandon_grotesqueregular', 'Optima', 'Segoe UI', sans-serif;
 	font-weight: 200;
 }
 
@@ -82,7 +167,7 @@ ul {
 	margin-bottom: 0px;
 }
 p {
-	font-family: 'Josefin Sans', 'Optima', 'Segoe UI', sans-serif;
+	font-family: 'brandon_grotesqueregular', 'Optima', 'Segoe UI', sans-serif;
 	font-weight: 300;
 	font-size: 15px;
 	line-height: 2;
@@ -157,7 +242,7 @@ h1{
 	}
 
 	h2{
-			font-family: 'xiomararegular', 'Brush Script MT', cursive;
+			font-family: 'vigrand_regularregular', 'Brush Script MT', cursive;
 			line-height: 1.8;
   }
 
@@ -195,13 +280,13 @@ h6::selection
 }
 
 blockquote {
-	font-family: "xiomararegular", 'Brush Script MT', cursive;
+	font-family: 'vigrand_regularregular', 'Brush Script MT', cursive;
 
 }
 
 .quote_attribution {
 	font-size: 0.6em;
-	font-family: 'Josefin Sans', 'Optima', 'Segoe UI', sans-serif;
+	font-family: 'brandon_grotesqueregular', 'Optima', 'Segoe UI', sans-serif;
 	font-style: italic;
 
 }
@@ -447,7 +532,7 @@ letter-spacing: 0.2em;
 }
 .section_subtitle_a
 {
-	font-family: 'Josefin Sans', 'Optima', 'Segoe UI', sans-serif;
+	font-family: 'brandon_grotesqueregular', 'Optima', 'Segoe UI', sans-serif;
 	font-size: 1.1em;
 	font-weight: 100;
 	color: #ffffff;
@@ -471,7 +556,7 @@ letter-spacing: 0.2em;
 
 .section_title
 {
-	font-family: 'xiomararegular', 'Brush Script MT', cursive;
+	font-family: 'vigrand_regularregular', 'Brush Script MT', cursive;
 	font-size: 60px;
 			line-height: 1.6;
 			margin-top: 4px;
@@ -550,7 +635,7 @@ span i.fa-arrow-right {
 {
 	margin-left: 100px;
 	letter-spacing: .1em;
-	font-family: 'Josefin Sans', 'Optima', 'Segoe UI', sans-serif;
+	font-family: 'brandon_grotesqueregular', 'Optima', 'Segoe UI', sans-serif;
 	font-weight: 100;
 
 }
@@ -947,7 +1032,7 @@ font-style:
 	display: inline-block;
 	height: 49px;
 	padding-right: 24px;
-	font-family: 'Josefin Sans', 'Optima', 'Segoe UI', sans-serif;
+	font-family: 'brandon_grotesqueregular', 'Optima', 'Segoe UI', sans-serif;
 	background: #40c9ce;
 }
 .home_info ul
@@ -1025,7 +1110,7 @@ font-style:
 }
 
 .timer_quote{
-	font-family: 'xiomararegular', 'Brush Script MT', cursive; 
+	font-family: 'vigrand_regularregular', 'Brush Script MT', cursive; 
 	font-style: italic;
 	font-weight: 100;
 	line-height: 2;
@@ -1058,7 +1143,7 @@ height: 350px;
 	/* text-align: center;
 .timer_section{
 	background-color: #40c9ce;
-	font-family: 'Josefin Sans', 'Optima', 'Segoe UI', sans-serif;
+	font-family: 'brandon_grotesqueregular', 'Optima', 'Segoe UI', sans-serif;
 	font-weight: 100;
 	width: 500px; 
 	height: 125px; 
@@ -1502,8 +1587,8 @@ font-size: 30px;
 
 .tab_menu_option
 {
-	font-size: 24px;
-	font-family: 'xiomararegular', 'Brush Script MT', cursive;
+	font-size: 20px;
+	font-family: 'vigrand_regularregular', 'Brush Script MT', cursive;
 	font-weight: 200;
 	margin-top: 2px;
 	color: #FFFFFF;
@@ -1512,8 +1597,8 @@ text-shadow: 0 0 10px rgb(135, 136, 150);
 
 .tab_menu_notes 
 {
-	font-size: 20px;
-	font-family: 'Josefin Slab', 'Rockwell', 'Palatino', serif;
+	font-size: 18px;
+	font-family: 'brandon_grotesquelight_italic', 'Rockwell', 'Palatino', serif;
 	font-style: oblique;
 	font-weight: 200;
 	margin-top: 2px;
@@ -1619,7 +1704,7 @@ margin-left: -320px;
 .appnitro_1 .feedback-input,
 .appnitro_2 .feedback-input {
 	color:#3c3c3c;
-  font-family: "Josefin Sans", 'Trebuchet MS', sans-serif;
+  font-family: "brandon_grotesqueregular", 'Trebuchet MS', sans-serif;
   font-weight:200;
 	font-size: 18px;
 	border-radius: 0;
