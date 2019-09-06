@@ -26,132 +26,74 @@
 *********/
 
 
-/* latin */
 @font-face {
-  font-family: 'Fredericka the Great';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Fredericka the Great'), local('FrederickatheGreat'), url(https://fonts.gstatic.com/s/frederickathegreat/v7/9Bt33CxNwt7aOctW2xjbCstzwVKsIBVV--SjxbcHcQ2K.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    font-family: 'rig_solidbold_reverse';
+    src: url('fonts/rigsolid-boldreverse-webfont.woff2') format('woff2'),
+         url('fonts/rigsolid-boldreverse-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
+/*Cursive font. Alternative: 'Brush Script MT' */
 
 @font-face {
-    font-family: 'brandon_grotesqueblack_italic';
-    src: url('fonts/brandon_blk_it-webfont.woff2') format('woff2'),
-         url('fonts/brandon_blk_it-webfont.woff') format('woff');
+    font-family: 'being_loveregular';
+    src: url('fonts/being_love_font_by_7ntypes-webfont.woff2') format('woff2'),
+         url('fonts/being_love_font_by_7ntypes-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
 
-
-
+/* latin-ext */
 @font-face {
-    font-family: 'brandon_grotesqueblack';
-    src: url('fonts/brandon_blk-webfont.woff2') format('woff2'),
-         url('fonts/brandon_blk-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
+	font-family: 'Hepta Slab';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/heptaslab/v1/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvkV5wfSaZdWMQkyYRn6sw.woff) format('woff');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  
+  /* latin */
+  @font-face {
+	font-family: 'Hepta Slab';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/heptaslab/v1/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvkV5wfcaZdWMQkyYRk.woff) format('woff');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  
+ /* latin-ext */
 @font-face {
-    font-family: 'brandon_grotesquelight_italic';
-    src: url('fonts/brandon_light_it-webfont.woff2') format('woff2'),
-         url('fonts/brandon_light_it-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'brandon_grotesquelight';
-    src: url('fonts/brandon_light-webfont.woff2') format('woff2'),
-         url('fonts/brandon_light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
+	font-family: 'Darker Grotesque';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: local('Darker Grotesque Regular'), local('DarkerGrotesque-Regular'), url(https://fonts.gstatic.com/s/darkergrotesque/v1/U9MH6cuh-mLQlC4BKCtayOfARkSVq7_UJEUJQOMuqA.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+	font-family: 'Darker Grotesque';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: local('Darker Grotesque Regular'), local('DarkerGrotesque-Regular'), url(https://fonts.gstatic.com/s/darkergrotesque/v1/U9MH6cuh-mLQlC4BKCtayOfARkSVq7HUJEUJQOM.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
 
 
 
 
-@font-face {
-    font-family: 'brandon_grotesqueMdIt';
-    src: url('fonts/brandon_med_it-webfont.woff2') format('woff2'),
-         url('fonts/brandon_med_it-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
-}
-
-
-
-
-@font-face {
-    font-family: 'brandon_grotesquemedium';
-    src: url('fonts/brandon_med-webfont.woff2') format('woff2'),
-         url('fonts/brandon_med-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'brandon_grotesqueRgIt';
-    src: url('fonts/brandon_reg_it-webfont.woff2') format('woff2'),
-         url('fonts/brandon_reg_it-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'brandon_grotesqueregular';
-    src: url('fonts/brandon_reg-webfont.woff2') format('woff2'),
-         url('fonts/brandon_reg-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-/* latin */
-@font-face {
-  font-family: 'Josefin Slab';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Josefin Slab Regular'), local('JosefinSlab-Regular'), url(https://fonts.gstatic.com/s/josefinslab/v9/lW-5wjwOK3Ps5GSJlNNkMalnqg6vBMjoPg.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-/*Cursive font, licensed. Alternative: 'Brush Script MT' */
-
-@font-face {
-    font-family: 'vigrand_regularregular';
-    src: url('fonts/vigrand-regular-webfont.woff2') format('woff2'),
-         url('fonts/vigrand-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 body{
-	font-family: 'brandon_grotesqueregular', 'Optima', 'Segoe UI', sans-serif;
+	font-family: 'Darker Grotesque', 'Optima', 'Segoe UI', sans-serif;
 	font-weight: 200;
 }
 
@@ -167,7 +109,7 @@ ul {
 	margin-bottom: 0px;
 }
 p {
-	font-family: 'brandon_grotesqueregular', 'Optima', 'Segoe UI', sans-serif;
+	font-family: 'Darker Grotesque', 'Optima', 'Segoe UI', sans-serif;
 	font-weight: 300;
 	font-size: 15px;
 	line-height: 2;
@@ -236,13 +178,13 @@ h5{font-size: 18px;}
 
 
 h1{
-	font-family: 'Fredericka the Great', 'Papyrus', fantasy;
+	font-family: 'rig_solidbold_reverse', 'Papyrus', fantasy;
 	line-height: 1.4;
 
 	}
 
 	h2{
-			font-family: 'vigrand_regularregular', 'Brush Script MT', cursive;
+			font-family: 'being_loveregular', 'Brush Script MT', cursive;
 			line-height: 1.8;
   }
 
@@ -258,7 +200,7 @@ h4, h5, h6
 	}
 	
 	h3, h4, h5, h6 {
-		font-family: 'Josefin Slab', 'Rockwell', 'Palatino', serif;
+		font-family: 'Hepta Slab', 'Rockwell', 'Palatino', serif;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -280,13 +222,13 @@ h6::selection
 }
 
 blockquote {
-	font-family: 'vigrand_regularregular', 'Brush Script MT', cursive;
+	font-family: 'being_loveregular', 'Brush Script MT', cursive;
 
 }
 
 .quote_attribution {
 	font-size: 0.6em;
-	font-family: 'brandon_grotesqueregular', 'Optima', 'Segoe UI', sans-serif;
+	font-family: 'Darker Grotesque', 'Optima', 'Segoe UI', sans-serif;
 	font-style: italic;
 
 }
@@ -490,7 +432,7 @@ section
 	line-height: 59px;
 	font-size: 16px;
 	font-weight: 600;
-  font-family: 'Josefin Slab', 'Rockwell', 'Palatino', serif;
+  font-family: 'Hepta Slab', 'Rockwell', 'Palatino', serif;
 font-variant: small-caps;	
 letter-spacing: 0.2em;
 }
@@ -532,7 +474,7 @@ letter-spacing: 0.2em;
 }
 .section_subtitle_a
 {
-	font-family: 'brandon_grotesqueregular', 'Optima', 'Segoe UI', sans-serif;
+	font-family: 'Darker Grotesque', 'Optima', 'Segoe UI', sans-serif;
 	font-size: 1.1em;
 	font-weight: 100;
 	color: #ffffff;
@@ -544,7 +486,7 @@ letter-spacing: 0.2em;
 
 .section_subtitle_b
 {
-  font-family: 'Josefin Slab', 'Rockwell,' 'Palatino', serif;
+  font-family: 'Hepta Slab', 'Rockwell,' 'Palatino', serif;
 	font-size: 1.1em;
 	font-weight: 100;
 	color: #ffffff;
@@ -556,7 +498,7 @@ letter-spacing: 0.2em;
 
 .section_title
 {
-	font-family: 'vigrand_regularregular', 'Brush Script MT', cursive;
+	font-family: 'being_loveregular', 'Brush Script MT', cursive;
 	font-size: 60px;
 			line-height: 1.6;
 			margin-top: 4px;
@@ -601,7 +543,7 @@ span i.fa-arrow-right {
 .logo
 {
 	display: inline-block;
-	font-family: 'Josefin Slab', 'Copperplate', 'Marker Felt', fantasy;
+	font-family: 'Hepta Slab', 'Copperplate', 'Marker Felt', fantasy;
 }
 .logo a
 {
@@ -635,7 +577,7 @@ span i.fa-arrow-right {
 {
 	margin-left: 100px;
 	letter-spacing: .1em;
-	font-family: 'brandon_grotesqueregular', 'Optima', 'Segoe UI', sans-serif;
+	font-family: 'Darker Grotesque', 'Optima', 'Segoe UI', sans-serif;
 	font-weight: 100;
 
 }
@@ -1010,7 +952,7 @@ span i.fa-arrow-right {
 .home_title h1 span
 {
 	display: block;
-	font-family: 'Fredericka the Great', 'Papyrus', fantasy;
+	font-family: 'rig_solidbold_reverse', 'Papyrus', fantasy;
 			line-height: 1.5;	
 			font-size: 80px;
 	color: #ffffff;
@@ -1032,7 +974,7 @@ font-style:
 	display: inline-block;
 	height: 49px;
 	padding-right: 24px;
-	font-family: 'brandon_grotesqueregular', 'Optima', 'Segoe UI', sans-serif;
+	font-family: 'Darker Grotesque', 'Optima', 'Segoe UI', sans-serif;
 	background: #40c9ce;
 }
 .home_info ul
@@ -1104,13 +1046,13 @@ font-style:
 6. Timer
 *********************************/
 .timer_header{
-  font-family: 'Josefin Slab', 'Rockwell', 'Palatino', serif;
+  font-family: 'Hepta Slab', 'Rockwell', 'Palatino', serif;
 	color: #ffffff; 
 	text-align: center;
 }
 
 .timer_quote{
-	font-family: 'vigrand_regularregular', 'Brush Script MT', cursive; 
+	font-family: 'being_loveregular', 'Brush Script MT', cursive; 
 	font-style: italic;
 	font-weight: 100;
 	line-height: 2;
@@ -1143,7 +1085,7 @@ height: 350px;
 	/* text-align: center;
 .timer_section{
 	background-color: #40c9ce;
-	font-family: 'brandon_grotesqueregular', 'Optima', 'Segoe UI', sans-serif;
+	font-family: 'Darker Grotesque', 'Optima', 'Segoe UI', sans-serif;
 	font-weight: 100;
 	width: 500px; 
 	height: 125px; 
@@ -1152,7 +1094,7 @@ height: 350px;
 
 .timer_section > h1{
   color: #ffffff;
-  font-family: 'Fredericka the Great', 'Papyrus', fantasy;
+  font-family: 'rig_solidbold_reverse', 'Papyrus', fantasy;
   font-weight: 400;
   font-size: 28px;
   text-shadow: 4px 3px 0px #000000;
@@ -1419,7 +1361,7 @@ div.tab_schedule_container:before{
 }
 .tab_schedule_time
 {
-	font-family: 'Josefin Slab', 'Rockwell', 'Palatino', serif;
+	font-family: 'Hepta Slab', 'Rockwell', 'Palatino', serif;
 	text-shadow: 3px 5px 2px #000000;
 font-size: 18px;
 	font-weight: 700;
@@ -1578,7 +1520,7 @@ text-shadow: 3px 5px 2px #474747;
 
 .tab_menu_head
 {
-	font-family: 'Josefin Slab', 'Rockwell', 'Palatino', serif;
+	font-family: 'Hepta Slab', 'Rockwell', 'Palatino', serif;
 	text-shadow: 3px 5px 2px #000000;
 font-size: 30px;
 	font-weight: 800;
@@ -1588,7 +1530,7 @@ font-size: 30px;
 .tab_menu_option
 {
 	font-size: 20px;
-	font-family: 'vigrand_regularregular', 'Brush Script MT', cursive;
+	font-family: 'being_loveregular', 'Brush Script MT', cursive;
 	font-weight: 200;
 	margin-top: 2px;
 	color: #FFFFFF;
@@ -1598,9 +1540,9 @@ text-shadow: 0 0 10px rgb(135, 136, 150);
 .tab_menu_notes 
 {
 	font-size: 18px;
-	font-family: 'brandon_grotesquelight_italic', 'Rockwell', 'Palatino', serif;
+	font-family: 'Darker Grotesque', 'Rockwell', 'Palatino', serif;
 	font-style: oblique;
-	font-weight: 200;
+	font-weight: 300;
 	margin-top: 2px;
 	color: rgb(202, 199, 199);
 	text-shadow: 0 0 10px rgb(34, 61, 78);
@@ -1689,7 +1631,7 @@ margin-left: -320px;
 	font-size: 16px;
 	font-weight: 200;
 	margin-left: 8px;
-	font-family: 'Josefin Slab', 'Rockwell', 'Palatino', serif;
+	font-family: 'Hepta Slab', 'Rockwell', 'Palatino', serif;
 	text-shadow: 3px 5px 2px #474747;
 }
 .form_title_bar_1
@@ -1704,7 +1646,7 @@ margin-left: -320px;
 .appnitro_1 .feedback-input,
 .appnitro_2 .feedback-input {
 	color:#3c3c3c;
-  font-family: "brandon_grotesqueregular", 'Trebuchet MS', sans-serif;
+  font-family: "Darker Grotesque", 'Trebuchet MS', sans-serif;
   font-weight:200;
 	font-size: 18px;
 	border-radius: 0;
@@ -1820,7 +1762,7 @@ display: none;
 	.speaker:hover div.directory_text {
 display:block;
 	color: #ffffff;
-	font-family: 'Josefin Slab', 'Rockwell', 'Palatino', serif;
+	font-family: 'Hepta Slab', 'Rockwell', 'Palatino', serif;
 	font-size: 14px;
 	left: -10px;
 	}
