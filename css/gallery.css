@@ -1093,7 +1093,7 @@ span i.fa-arrow-right {
   }
   @media screen and (max-width: 575px) {
 	.gallery_cards {
-		flex-direction: column;
+display: block;
 	}
 	.gallery_cards img {
 		max-height: 60vh;
