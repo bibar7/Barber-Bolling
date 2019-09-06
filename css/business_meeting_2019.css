@@ -47,45 +47,9 @@
 }
 
 
-/* latin-ext */
-@font-face {
-	font-family: 'Hepta Slab';
-	font-style: normal;
-	font-weight: 400;
-	font-display: swap;
-	src: url(https://fonts.gstatic.com/s/heptaslab/v1/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvkV5wfSaZdWMQkyYRn6sw.woff) format('woff');
-	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-  }
-  
-  /* latin */
-  @font-face {
-	font-family: 'Hepta Slab';
-	font-style: normal;
-	font-weight: 400;
-	font-display: swap;
-	src: url(https://fonts.gstatic.com/s/heptaslab/v1/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvkV5wfcaZdWMQkyYRk.woff) format('woff');
-	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
   
   
- /* latin-ext */
-@font-face {
-	font-family: 'Darker Grotesque';
-	font-style: normal;
-	font-weight: 400;
-	font-display: swap;
-	src: local('Darker Grotesque Regular'), local('DarkerGrotesque-Regular'), url(https://fonts.gstatic.com/s/darkergrotesque/v1/U9MH6cuh-mLQlC4BKCtayOfARkSVq7_UJEUJQOMuqA.woff2) format('woff2');
-	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-  }
-  /* latin */
-  @font-face {
-	font-family: 'Darker Grotesque';
-	font-style: normal;
-	font-weight: 400;
-	font-display: swap;
-	src: local('Darker Grotesque Regular'), local('DarkerGrotesque-Regular'), url(https://fonts.gstatic.com/s/darkergrotesque/v1/U9MH6cuh-mLQlC4BKCtayOfARkSVq7HUJEUJQOM.woff2) format('woff2');
-	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
+
 
 
 
@@ -94,7 +58,7 @@
 
 body{
 	font-family: 'Darker Grotesque', 'Optima', 'Segoe UI', sans-serif;
-	font-weight: 200;
+	font-weight: 400;
 }
 
 div {
@@ -111,7 +75,7 @@ ul {
 p {
 	font-family: 'Darker Grotesque', 'Optima', 'Segoe UI', sans-serif;
 	font-weight: 500;
-	font-size: 20px;
+	font-size: 24px;
 	line-height: 2;
 	color: black;
 	-webkit-font-smoothing: antialiased;
@@ -174,19 +138,19 @@ p::selection
 h1{
 	font-family: 'rig_solidbold_reverse', 'Papyrus', fantasy;
 	line-height: 1.4;
-	font-size: 40px;
+	font-size: 44px;
 	}
 
 	h2{
 			font-family: 'being_loveregular', 'Brush Script MT', cursive;
 			line-height: 1.8;
-			font-size: 30px;
+			font-size: 34px;
   }
 
 
 h3
 {	
-font-size: 20px;
+font-size: 24px;
 }
 
 h4, h5 {
@@ -195,17 +159,17 @@ h4, h5 {
 }
 
 h4 {
-	font-size: 16px;
+	font-size: 20px;
 }
 
 h5 {
-	font-weight: 200;
-	font-size: 14px;
+	font-weight: 300;
+	font-size: 18px;
 }
 
 h6 {
 font-weight: 900;
-font-size: 20px;
+font-size: 24px;
 
 }
 	
@@ -217,7 +181,10 @@ font-size: 20px;
 	color: #000000;
 }
 
-.home_title{
+.home_title h1{
+font-size: 60px;
+color: white;
+text-shadow: 0 0 10px rgb(125, 154, 187);
 
 }
 h1::selection, 
@@ -1055,9 +1022,13 @@ font-style:
 Main Text
 **********/
 
-h4 ol{
-	list-style-type: I;
+
+ol > li {
+	font-size: 24px;
 }
+
+
+
 
 ul.dashed {
 	list-style: none;
@@ -1066,7 +1037,7 @@ ul.dashed {
 
 ul.dashed > li {
 	margin-left: 15px;  
-	font-size: 20px;
+	font-size: 24px;
 }
 
 /* Prevent nested li's from getting messed up */
@@ -1077,6 +1048,14 @@ ul.dashed > li::before {
 
 ul.dashed > li > ul > li {
 	list-style-type: disc;
+}
+
+strong {
+	font-weight: 600;
+}
+
+.toc li {
+	font-size: 20px;
 }
 
 /*********************************

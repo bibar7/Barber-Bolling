@@ -204,9 +204,7 @@ h4, h5, h6
 	color: #000000;
 }
 
-.home_title{
 
-}
 h1::selection, 
 h2::selection, 
 h3::selection, 
@@ -945,18 +943,12 @@ span i.fa-arrow-right {
 {
 
 }
-.home_title h1 span
-{
-	display: block;
-	font-family: 'rig_solidbold_reverse', 'Papyrus', fantasy;
-			line-height: 1.5;	
-			font-size: 80px;
-	color: #ffffff;
-	/* text-shadow: 3px 7px 2px rgba(88, 89, 145, 0.65); */
-	text-shadow: 0 0 10px rgb(157, 158, 255);
-	line-height: 0.9;
-font-style:
-}
+.home_title h1{
+	font-size: 60px;
+	color: white;
+	text-shadow: 0 0 10px rgb(125, 154, 187);
+	
+	}
 .home_title h1 span:first-of-type
 {
 	color: #fb688d;
