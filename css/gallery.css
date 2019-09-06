@@ -228,10 +228,10 @@ blockquote {
 }
 
 
-img
+/* img
 {
 	max-width: 100%;
-}
+} */
 button:active
 {
 	outline: none;
