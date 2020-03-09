@@ -557,7 +557,7 @@ letter-spacing: 0.2em;
 	font-size: 60px;
 			line-height: 1.6;
 			margin-top: 4px;
-	text-shadow: 3px 5px 2px #474747
+	text-shadow: 2px 3px 1px #474747a6
 
 }
 
@@ -1903,6 +1903,7 @@ display:block;
 .cta_button
 {
 	margin-top: 23px;
+
 }
 
 /*********************************
@@ -2060,6 +2061,7 @@ font-size: 18px;
 line-height: 1.2;
 }
 
+.text-shadow,
 .notify-btn {
   font-size: 1.4em;
   text-shadow: 1.5px 1.5px 1.5px #000000 !important;
