@@ -49,7 +49,8 @@
  */
 /*{"last_published":"2020-03-08 22:33:57 UTC"}*/
 
-@import url("https://p.typekit.net/p.css?s=1&k=cbc7ajs&ht=tk&f=15634.15650.15652.15653.43703.43705.43706.43709.43710.43711.43713&a=18503075&app=typekit&e=css");
+@import url("https://p.typekit.net/p.css?s=1&k=cbc7ajs&ht=tk&f=10310.10311.15634.15650.15652.15653.35905.35907.35908.35910.35911.43703.43705.43706.43709.43710.43711.43713.44232.44234.44239&a=18503075&app=typekit&e=css");
+
 
 @font-face {
 font-family:"josefin-slab";
@@ -73,6 +74,25 @@ font-display:auto;font-style:italic;font-weight:600;
 font-family:"josefin-slab";
 src:url("https://use.typekit.net/af/d1814a/00000000000000003b9b2ad9/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff2"),url("https://use.typekit.net/af/d1814a/00000000000000003b9b2ad9/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff"),url("https://use.typekit.net/af/d1814a/00000000000000003b9b2ad9/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("opentype");
 font-display:auto;font-style:normal;font-weight:600;
+}
+
+
+@font-face {
+font-family:"fairwater-script";
+src:url("https://use.typekit.net/af/793da4/00000000000000003b9b09d7/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/793da4/00000000000000003b9b09d7/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/793da4/00000000000000003b9b09d7/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"fairwater-script";
+src:url("https://use.typekit.net/af/1788c8/00000000000000003b9b09d9/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/1788c8/00000000000000003b9b09d9/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/1788c8/00000000000000003b9b09d9/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"fairwater-solid-serif";
+src:url("https://use.typekit.net/af/3dfb6f/00000000000000003b9b09da/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/3dfb6f/00000000000000003b9b09da/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/3dfb6f/00000000000000003b9b09da/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
 }
 
 @font-face {
@@ -118,29 +138,13 @@ font-display:auto;font-style:normal;font-weight:900;
 }
 
 
-@font-face {font-family: 'SignPainter-HouseScript';
-  src: url("../assets/fonts/script/900420b3389e695ce84f5cf081b110d1.eot"); /* IE9*/
-  src: url("../assets/fonts/script/900420b3389e695ce84f5cf081b110d1.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-  url("../assets/fonts/script/900420b3389e695ce84f5cf081b110d1.woff2") format("woff2"), /* chrome、firefox */
-  url("../assets/fonts/script/900420b3389e695ce84f5cf081b110d1.woff") format("woff"), /* chrome、firefox */
-  url("../assets/fonts/script/900420b3389e695ce84f5cf081b110d1.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url("../assets/fonts/script/900420b3389e695ce84f5cf081b110d1.svg#SignPainter-HouseScript") format("svg"); /* iOS 4.1- */
+.tk-josefin-slab { font-family: "josefin-slab",serif; }
+.tk-fairwater-script { font-family: "fairwater-script",cursive; }
+.tk-fairwater-solid-serif { font-family: "fairwater-solid-serif",sans-serif; }
+.tk-gopher { font-family: "gopher",sans-serif; font-weight: 300;}
+.tk-comic {
+	font-family: 'Comic Neue', sans-serif;
 }
-
-@font-face {font-family: 'Signboard-Regular';
-  src: url("../assets/fonts/board/1bec4bc318bf8917f5bee992838b1a74.eot"); /* IE9*/
-  src: url("../assets/fonts/board/1bec4bc318bf8917f5bee992838b1a74.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-  url("../assets/fonts/board/1bec4bc318bf8917f5bee992838b1a74.woff2") format("woff2"), /* chrome、firefox */
-  url("../assets/fonts/board/1bec4bc318bf8917f5bee992838b1a74.woff") format("woff"), /* chrome、firefox */
-  url("../assets/fonts/board/1bec4bc318bf8917f5bee992838b1a74.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url("../assets/fonts/board/1bec4bc318bf8917f5bee992838b1a74.svg#Signboard Regular") format("svg"); /* iOS 4.1- */
-}
-
-
-.tk-josefin-slab { font-family: 'josefin-slab',serif !important; font-weight: 800 !important;}
-.tk-gopher { font-family: 'gopher',sans-serif !important; }
-.tk-Signboard-Regular { font-family: 'Signboard-Regular',serif !important; }
-.tk-SignPainter-HouseScript { font-family: 'SignPainter-HouseScript',cursive !important; }
 
 
 body{
@@ -232,14 +236,14 @@ h5{font-size: 18px;}
 
 
 h1{
-	font-family: 'Signboard-Regular', 'Marker Felt', Copperplate, sans-serif;
-  text-transform: uppercase;
-	line-height: 1.4;
+	font-family: "fairwater-solid-serif", sans-serif !important;
+	line-height: 2;
 
 	}
 
 	h2{
-			font-family: 'SignPainter-HouseScript', 'Brush Script MT', cursive;
+			font-family: 'fairwater-script', 'Brush Script MT', cursive;
+			font-weight: 700;
 			line-height: 1.8;
   }
 
@@ -277,7 +281,7 @@ h6::selection
 }
 
 blockquote {
-	font-family: 'SignPainter-HouseScript', 'Brush Script MT', cursive;
+	font-family: 'fairwater-script', 'Brush Script MT', cursive;
 
 }
 
@@ -553,7 +557,7 @@ letter-spacing: 0.2em;
 
 .section_title
 {
-	font-family: 'SignPainter-HouseScript', 'Brush Script MT', cursive;
+	font-family: 'fairwater-script', 'Brush Script MT', cursive;
 	font-size: 60px;
 			line-height: 1.6;
 			margin-top: 4px;
@@ -567,6 +571,56 @@ span i.fa-arrow-right {
 }
 
 /*********************************
+Alert
+*********************************/
+
+.covid-alert-update {
+	position: fixed;
+	/* margin-top: 10em; */
+	margin: 10em 5em;
+z-index: 50;
+}
+
+@media screen and (max-width: 570px){
+	.covid-alert-update {
+		margin: 10em 2em !important;
+
+	}
+}
+
+.alert-heading{
+	font-size: 2.6em;
+	font-weight: 700;
+}
+
+
+.alert {
+	background-color: #e32e5b;
+}
+
+.alert p {
+	color: rgb(39, 39, 39) !important;
+	/* font-weight: 700; */
+	font-family: 'Comic Neue', sans-serif;
+	text-transform: uppercase;
+}
+
+.alert-text {
+	font-weight: 700 !important;
+font-size: 1.1em;
+}
+
+p.alert-text strong {
+	font-size: 1.15em;
+	text-decoration: underline;
+}
+
+p.mb-0 {
+	font-style: italic;
+}
+
+
+/*********************************
 3. Header
 *********************************/
 
@@ -577,7 +631,7 @@ span i.fa-arrow-right {
 	left: 5px;
 	width: calc(100% - 48px);
 	background: black;
-	z-index: 100;
+	z-index: 50;
 	border-bottom: solid 2px #40c9ce;
 }
 .header_content
@@ -981,12 +1035,13 @@ span i.fa-arrow-right {
 
 .home
 {
-	height: 100vh;
+	height: 110vh;
 }
 .home_slider_container
 {
 	width: 100%;
 	height: 100%;
+	margin-bottom: 2em !important;
 }
 .home_container
 {
@@ -1007,9 +1062,9 @@ margin-top: 10vh;
 .home_title h1 span
 {
 	display: block;
-  font-family: 'Signboard-Regular', Copperplate, sans-serif;
-			line-height: 1.5;
-			font-size: 80px;
+  font-family: "fairwater-solid-serif", Copperplate, sans-serif; ;
+			line-height: 1.15 !important;
+			font-size: 72px;
 	color: #ffffff;
 	/* text-shadow: 3px 7px 2px rgba(88, 89, 145, 0.65); */
 	text-shadow: 0 0 10px rgb(157, 158, 255);
@@ -1039,7 +1094,7 @@ font-style:
 .home_info ul li
 {
 	position: relative;
-	font-size: 22px;
+	font-size: 0.95em !important;
 	font-weight: 200;
 	color: #ffffff;
 }
@@ -1074,6 +1129,8 @@ font-style:
 {
 	width: 86px;
 	height: 38px;
+	margin-top: 1em !important;
+
 	background: transparent;
 	text-align: center;
 	line-height: 38px;
@@ -1101,7 +1158,7 @@ font-style:
 6. Timer
 *********************************/
 .timer_header{
-  font-size: 2.2em;
+  font-size: 2em;
 
   font-family: 'josefin-slab', 'Rockwell', 'Palatino', serif;
 	color: #ffffff;
@@ -1114,9 +1171,9 @@ font-style:
   letter-spacing: 0.05em;
 }
 
-.timer_quote{
-  /* font-size: 1.5em; */
-	font-family: 'SignPainter-HouseScript', 'Brush Script MT', cursive;
+.timer_blockquote{
+  font-size: 0.85em;
+	font-family: 'fairwater-script', 'Brush Script MT', cursive;
 	font-style: italic;
 
 }
@@ -1604,7 +1661,7 @@ font-size: 30px;
 .tab_menu_option
 {
 	font-size: 20px;
-	font-family: 'SignPainter-HouseScript', 'Brush Script MT', cursive;
+	font-family: 'fairwater-script', 'Brush Script MT', cursive;
 	font-weight: 200;
 	margin-top: 2px;
 	color: #FFFFFF;
