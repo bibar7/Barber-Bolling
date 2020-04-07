@@ -575,7 +575,7 @@ Alert
 *********************************/
 
 .covid-alert-update {
-	position: fixed;
+	position: absolute;
 	/* margin-top: 10em; */
 	margin: 10em 5em;
 z-index: 50;
@@ -583,13 +583,13 @@ z-index: 50;
 
 @media screen and (max-width: 570px){
 	.covid-alert-update {
-		margin: 10em 2em !important;
+		margin: 5em 2em !important;
 
 	}
 }
 
 .alert-heading{
-	font-size: 2.6em;
+	font-size: 2.3em;
 	font-weight: 700;
 }
 
