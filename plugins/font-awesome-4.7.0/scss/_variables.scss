@@ -798,3 +798,9 @@ $fa-var-youtube: "\f167";
 $fa-var-youtube-play: "\f16a";
 $fa-var-youtube-square: "\f166";
 
+$embed-responsive-aspect-ratios: (
+  (9 21),
+  (9 16),
+  (4 3),
+  (1 1)
+) !default;
