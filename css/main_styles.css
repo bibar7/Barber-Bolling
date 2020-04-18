@@ -583,7 +583,7 @@ z-index: 50;
 
 @media screen and (max-width: 570px){
 	.covid-alert-update {
-		margin: 5em 2em !important;
+		margin: 4em 2em !important;
 
 	}
 }
@@ -1180,7 +1180,7 @@ font-style:
 
 .timer_section
 {
-height: 36em;
+height: 120em;
 	background-color: #000000;
 }
 /* .timer_overlay
