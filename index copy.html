@@ -200,8 +200,25 @@
 						<div class="wrapper">
 
 
-							<div class="agile_banner_text_info">
-								<h1><i class="fa fa-camera-retro" aria-hidden="true"></i> <span>Creative</span><a href="index.html">Megapixel</a></h1>
+							<div class="container-fluid agile_banner_text_info mb-3">
+
+									<div class="d-flex justify-content-center row">
+										<div class="col-md-2">
+											<img src="images/icons/icon-121.png" class=""></img>
+										</div>
+										<div class="col-md-10">
+											<h1 style="color: #df2783 !important; text-shadow: 2px 2px 2px rgb(255, 255, 255, 0.8);"> 
+												Barber-Bolling Family Reunion
+											</h1>
+										</div>
+									</div>
+
+									<div class="d-flex row">
+										<div class="col-md-10 offset-md-2">
+											<h2>40 Years and Counting!</h2>
+										</div>
+									</div>
+
 							</div>
 
 
@@ -350,12 +367,14 @@
 				
 									<nav>
 										<ul>
-											<li><a href="#home" class="active scroll">Home</a></li>
-											<li><a href="#welcome" class="scroll">About</a></li>
-											<li><a href="#team" class="scroll">Team</a></li>
-											<li><a href="#services" class="scroll">Services</a></li>
-											<li><a href="#portfolio" class="scroll">Gallery</a></li>
-											<li><a href="#contact" class="scroll">Contact</a></li>
+											<ul class="d-flex flex-column align-items-center justify-content-start">
+												<li><a href="index.html" class="active scroll"><i class="fas fa-home"></i> Home</a></li>
+												<li><a href="03-coming-soon.html" class="scroll"><i class="fas fa-clipboard"></i>Register (Coming Soon1!)</a></li>
+												<li><a href="newsletter-2020.html" class="scroll"> <i class="fas fa-newspaper"></i>2020 Newsletter</a></li>
+												<li><a href="#reunion-info" class="scroll"><i class="fas fa-map-marker-alt"></i>2020 City</a></li>
+												<li><a href="gallery.html" class="scroll"><i class="fas fa-images-alt"></i>Photo Gallery</a></li>
+												<li><a href="mailto:barberbollingreunion@gmail.com?cc=rfrazier1999@kellogg.northwestern.edu;subject=Important%3A%20Family%20Reunion%20Question%20&amp;body=This%20email%20was%20generated%20from%20the%20reunion%20website%2E" class="scroll"><i class="fas fa-envelope-open-text"></i>Contact</a></li>
+											</ul>
 										</ul>
 									</nav>
 
@@ -1162,7 +1181,7 @@ in 1619 (among them the arrival of the first enslaved Africans) has earned the c
 			event.preventDefault();
 			$('html,body').animate({
 				scrollTop: $(this.hash).offset().top
-			}, 1000);
+			}, 1500);
 		});
 	});
 </script>
