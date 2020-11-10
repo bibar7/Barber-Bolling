@@ -515,21 +515,27 @@ padding: 0 !important;
 	position: absolute;
 	max-width: 70vw;
 	z-index: 999;
-	bottom: 0 !important;
-	right: 0 !important;
-	left: 25% !important;
-top: 40% !important;
+	left: 20% !important;
+top: 35% !important;
 padding: 0;
 margin: 0;
 }
 
 .agile_banner_text_info img{
+
+}
+
+.icon-img-wrapper {
 	position: relative;
 	display: block;
-	max-width: 100%;
-	left: 0;
-	right:0;
-	top: 0;
+	height: 200px;
+	width: 200px;
+	right: 2em;
+}
+
+.heading-wrapper {
+	position: relative;
+	display: block;	
 
 }
 
@@ -538,17 +544,17 @@ margin: 0;
 	display: block;
 max-width: 100%;
 left: 0;
-	right:0;
-	top: 0;
+	top:0;
+
 	
 }
 
 .agile_banner_text_info h1 {
 	
 	color: #df2783 !important;
-	font-size: 3.4em !important;
+	font-size: 3em !important;
     letter-spacing: 3px;
-    line-height: 1.1 !important;
+    line-height: 1 !important;
 	font-weight: 800;
 	
 }
@@ -559,9 +565,8 @@ left: 0;
 
 
 .agile_banner_text_info h2 {
-	font-size: 2.9em !important;
+	font-size: 2.6em !important;
 
-bottom: 0 !important;
 	font-family: 'fairwater-script', 'Brush Script MT', cursive !important;
 
 	color: #fff;
@@ -576,51 +581,77 @@ bottom: 0 !important;
 
 /* RESPONSIVE BANNER CAROUSEL */
 
+@media (min-width: 770px) and (max-width: 1000px){
+	.container-fluid.agile_banner_text_info {
+
+		left: 15% !important;
+		top: 20% !important;
+}
+
+.agile_banner_text_info h2 {
+	font-size: 2em !important;
+}
+}
+
+@media (min-width: 480px) and (max-width: 770px){
+	.container-fluid.agile_banner_text_info {
+
+		left: 25% !important;
+		top: 5% !important;
+}
+
+.agile_banner_text_info h2{
+	font-size: 1.8em !important;
+	top: 0.5em;
+}
+
+.heading-wrapper {
+margin-left: 5%;
+}
+
+}
+
 @media (max-width: 480px){
 	.owl-carousel,
 	.owl-carousel .owl-stage-outer,
 	.owl-carousel .owl-stage,
 	.owl-carousel .owl-item {
-	height: 70vh;
+	height: 90vh;
 }
 
 .slide img {
-	min-height: 110% !important;
+	min-height: 100% !important;
 	background-position: center center !important;
 }
 
 .group-photo img {
 	min-width: 200% !important;
 }
-.slide-photo img {
-min-width: 120% !important;
 
-/* bottom: 5em !important; */
-
-}
 
 
 
 .container-fluid.agile_banner_text_info {
-	max-width: 100% !important;
-top: 10% !important;
+	max-width: 90% !important;
+top: 5% !important;
 justify-content: center !important;
 
 }
 
-.slide-photo-fix img {
-	width: 50% !important;
-	
-	}
+.icon-img-wrapper {
+
+	height: 100px;
+	width: 100px;
+}
 
 .agile_banner_text_info h1{
-font-size: 2em !important;
+font-size: 2.2em !important;
 
 }
 
 .agile_banner_text_info h2{
-	font-size: 1.8em !important;
-
+	font-size: 1.6em !important;
+	top: 0.5em;
 }
 
 
