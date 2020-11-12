@@ -434,9 +434,12 @@ padding: 0 !important;
 
 .home_banner {
 	display: block;
-height: 140vh;
+	overflow: hidden;
+max-height: 160vh;
 	margin: 0 !important;
 padding: 0 !important;
+background-color: #000000;
+
 }
 
 .home_slider_container
@@ -445,7 +448,7 @@ padding: 0 !important;
 	position: relative;
 	overflow: hidden;
 	width: 100%;
-	height: 140vh;
+	height: 100%;
 	/* top: 51.5%;
 	-webkit-transform: translateY(-50%);
 	-moz-transform: translateY(-50%);
@@ -513,10 +516,11 @@ padding: 0 !important;
 
 .container-fluid.agile_banner_text_info {
 	position: absolute;
-	max-width: 70vw;
+	display: block;
+	width: 60vw;
 	z-index: 999;
 	left: 20% !important;
-top: 35% !important;
+top: 30% !important;
 padding: 0;
 margin: 0;
 }
@@ -528,21 +532,22 @@ margin: 0;
 .icon-img-wrapper {
 	position: relative;
 	display: block;
-	height: 200px;
-	width: 200px;
-	right: 2em;
+	max-height: 200px;
+	max-width: 200px;
+
 }
 
 .heading-wrapper {
 	position: relative;
-	display: block;	
+	display: inline-block;	
+	max-width: 100%;
+
 
 }
 
 .agile_banner_text_info > h1, h2 {
 	position: relative;
 	display: block;
-max-width: 100%;
 left: 0;
 	top:0;
 
@@ -550,7 +555,7 @@ left: 0;
 }
 
 .agile_banner_text_info h1 {
-	
+	max-width: 100%;
 	color: #df2783 !important;
 	font-size: 3em !important;
     letter-spacing: 3px;
@@ -565,15 +570,17 @@ left: 0;
 
 
 .agile_banner_text_info h2 {
-	font-size: 2.6em !important;
+	max-width: 80%;
+
+	font-size: 2.8em !important;
 
 	font-family: 'fairwater-script', 'Brush Script MT', cursive !important;
 
 	color: #fff;
 	text-shadow: 2px 2px 2px rgb(0, 0, 0);
 
+    line-height: 1.4 !important;
 
-	letter-spacing: 3px;
 
 }
 
@@ -589,21 +596,26 @@ left: 0;
 }
 
 .agile_banner_text_info h2 {
-	font-size: 2em !important;
+	font-size: 2.2em !important;
 }
 }
 
 @media (min-width: 480px) and (max-width: 770px){
+
+	.home_slider_container {
+	/* height: 90vh !important; */
+}
 	.container-fluid.agile_banner_text_info {
 
-		left: 25% !important;
-		top: 5% !important;
+		/* left: 25% !important; */
+		top: 8% !important;
 }
 
 .agile_banner_text_info h2{
 	font-size: 1.8em !important;
-	top: 0.5em;
+	/* top: 0.5em; */
 }
+
 
 .heading-wrapper {
 margin-left: 5%;
@@ -611,12 +623,20 @@ margin-left: 5%;
 
 }
 
+@media (max-width: 765px){
+	.icon-img-wrapper {
+		margin-left: 4rem!important;
+		margin-bottom: 1.5rem!important;
+	}
+}
+
 @media (max-width: 480px){
-	.owl-carousel,
-	.owl-carousel .owl-stage-outer,
-	.owl-carousel .owl-stage,
-	.owl-carousel .owl-item {
-	height: 90vh;
+	.home_slider_container {
+		max-height: 130vh !important;
+	}
+
+.icon-img-wrapper {
+	margin-left: 2.5rem!important;
 }
 
 .slide img {
@@ -645,13 +665,13 @@ justify-content: center !important;
 }
 
 .agile_banner_text_info h1{
-font-size: 2.2em !important;
+font-size: 2.5em !important;
 
 }
 
 .agile_banner_text_info h2{
-	font-size: 1.6em !important;
-	top: 0.5em;
+	font-size: 2em !important;
+	top: 0.25em;
 }
 
 
@@ -1585,6 +1605,10 @@ height: 130em;
 
 .intro
 {
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	height: 90vh;
 	background-color: #c5c4ea;
 	padding-top: 92px;
 	padding-bottom: 102px;
