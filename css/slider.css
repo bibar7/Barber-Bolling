@@ -269,7 +269,7 @@ html {
 }
 
 .gallery__controls__item:hover {
-  color: #fff;
+  color: #30C519;
   transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
@@ -295,7 +295,7 @@ html {
   -webkit-transition: All 0.3s ease;
   -moz-transition: All 0.3s ease;
   -o-transition: All 0.3s ease;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color:#0022fe71;
   background-repeat: no-repeat;
   border-radius: 0 20px 20px 0;
 }
@@ -339,7 +339,7 @@ html {
   right: 0;
   width: 0;
   height: 3px;
-  background-color: #1bb580;
+  background-color: #0021FE;
 }
 
 .gallery__controls__inner {
